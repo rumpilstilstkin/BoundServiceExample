@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BoundServiceExample</string>
+    <string name="button_service_bind">Service bind</string>
+    <string name="button_service_unbind">Service unbind</string>
+
+    <string name="service_bind">Service bind</string>
+    <string name="service_unbind">Service unbind</string>
+    <string name="service_destroy">Service destroyed</string>
+    <string name="service_connected">Service connected</string>
+    <string name="service_disconnected">Service disconnected</string>
+    <string name="service_not_bind">Service not bind</string>
+
+</resources>

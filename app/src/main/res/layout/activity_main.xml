@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.geekbrains.boundserviceexample.MainActivity">
+
+    <Button
+        android:id="@+id/button_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onBindService"
+        android:text="@string/button_service_bind" />
+
+    <Button
+        android:id="@+id/button_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onUnbindService"
+        android:text="@string/button_service_unbind" />
+
+    <Button
+        android:id="@+id/button_speed_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSpeedUp"
+        android:text="Speed up" />
+
+    <Button
+        android:id="@+id/button_speed_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSpeedDown"
+        android:text="Speed down" />
+
+    <TextView
+        android:id="@+id/textViewSpeedSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/service_not_bind"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+</LinearLayout>
